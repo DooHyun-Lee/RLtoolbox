@@ -1,0 +1,8 @@
+/home/doolee13/anaconda3/envs/ppo/lib/python3.10/site-packages/gymnasium/core.py:297: UserWarning: [33mWARN: env.num_envs to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.num_envs` for environment variables or `env.get_attr('num_envs')` that will search the reminding wrappers.
+  logger.warn(
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "/home/doolee13/RLtoolbox/ppo/ppo_gymnasium.py", line 219, in <module>
+    print(f"global_step={global_step}, episodic_return={item['episode']['r']}")
+TypeError: 'NoneType' object is not subscriptable
+global_step=36, episodic_return=[9.]

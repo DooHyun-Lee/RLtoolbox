@@ -1,0 +1,28 @@
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Configure stats pid to 26451
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Loading settings from /home/doolee13/.config/wandb/settings
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Loading settings from /home/doolee13/RLtoolbox/ppo/wandb/settings
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'ppo/ppo_gymnasium.py', 'program': '/home/doolee13/RLtoolbox/ppo/ppo_gymnasium.py'}
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:_log_setup():507] Logging user logs to /home/doolee13/RLtoolbox/ppo/wandb/run-20230808_113542-wddcxr3g/logs/debug.log
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:_log_setup():508] Logging internal logs to /home/doolee13/RLtoolbox/ppo/wandb/run-20230808_113542-wddcxr3g/logs/debug-internal.log
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:init():547] calling init triggers
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'exp_name': 'ppo_gymnasium', 'gym_id': 'CartPole-v1', 'learning_rate': 0.00025, 'seed': 1, 'total_timesteps': 25000, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'ppo-implementation-details', 'wandb_entity': None, 'capture_video': False, 'num_envs': 4, 'num_steps': 128, 'anneal_lr': True, 'gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'num_minibatches': 4, 'update_epochs,': 4, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.01, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None, 'batch_size': 512, 'minibatch_size': 128}
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:init():596] starting backend
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [wandb_init.py:init():600] setting up manager
+2023-08-08 11:35:42,117 INFO    MainThread:26451 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-08 11:35:42,118 INFO    MainThread:26451 [wandb_init.py:init():606] backend started and connected
+2023-08-08 11:35:42,120 INFO    MainThread:26451 [wandb_init.py:init():697] updated telemetry
+2023-08-08 11:35:42,122 INFO    MainThread:26451 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-08 11:35:42,714 INFO    MainThread:26451 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-08 11:35:42,819 INFO    MainThread:26451 [wandb_run.py:_on_init():2189] got version response 
+2023-08-08 11:35:42,819 INFO    MainThread:26451 [wandb_init.py:init():781] starting run threads in backend
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-08 11:35:44,506 INFO    MainThread:26451 [wandb_run.py:_tensorboard_callback():1428] tensorboard callback: runs/CartPole-v1__ppo_gymnasium__1__1691462141, True
+2023-08-08 11:36:00,051 WARNING MsgRouterThr:26451 [router.py:message_loop():77] message_loop has been closed
